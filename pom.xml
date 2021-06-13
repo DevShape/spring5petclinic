@@ -14,7 +14,7 @@
     </parent>
     <groupId>guru.springframework</groupId>
     <artifactId>spring5petclinic</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>spring5petclinic</name>
     <description>Demo project for Spring Boot</description>
     <properties>
@@ -49,7 +49,7 @@
     </build>
     <scm>
         <developerConnection>scm:git:https://github.com/DevShape/spring5petclinic.git</developerConnection>
-      <tag>spring5petclinic-0.0.1</tag>
+      <tag>HEAD</tag>
   </scm>
 
 </project>
