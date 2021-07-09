@@ -4,9 +4,10 @@ import guru.springframework.spring5petclinic.model.Visit;
 import guru.springframework.spring5petclinic.services.PetService;
 import guru.springframework.spring5petclinic.services.PetTypeService;
 import guru.springframework.spring5petclinic.services.VisitService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
-
+@Service
 public class VisitMapService extends AbstractMapService<Visit, Long> implements VisitService {
 
     private final PetTypeService petTypeService;
